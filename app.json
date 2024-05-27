@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "RegisApp",
+    "slug": "RegisApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sensor.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/sensor.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nregis.RegisApp2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57e407ee-2614-465b-aa4d-f89f4c5d9c58"
+      }
+    }
+  }
+}
